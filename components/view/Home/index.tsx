@@ -1,6 +1,7 @@
 import BaseLayout from "layout/BaseLayout";
-import BaseTickerItem from "components/common/BaseTickerItem";
-import Chart from "components/Chart";
+// import BaseTickerItem from "components/common/BaseTickerItem";
+// import Chart from "components/Chart";
+import BaseButton from "components/common/BaseButton";
 import HeroImage from "assets/icons/chart.svg";
 import Image from "next/image";
 
@@ -13,10 +14,11 @@ const Home = () => {
             <p className="text-4xl font-bold">
               <span className="text-blue-300">배당</span>, 이제는 어렵지 않아요
             </p>
+            <p className="text-gray-500 mt-2">배당의 모든 것, 배당금닷컴</p>
           </section>
-          <section className="flex">
-            <p>배당금이란?</p>
-            <p>배당금닷컴 둘러보기</p>
+          <section className="flex mt-8">
+            <BaseButton text="배당금이란?"></BaseButton>
+            <BaseButton text="배당금닷컴 둘러보기"></BaseButton>
           </section>
         </div>
         <Image src={HeroImage} alt="hero" width="360"></Image>
