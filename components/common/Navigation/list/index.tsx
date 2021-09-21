@@ -9,6 +9,7 @@ import {
 import styled from "styled-components";
 import { useRecoilState } from "recoil";
 import { menuAtom } from "store/page";
+import SideBarChart from "components/common/SideBarChart/SideBarChart";
 
 interface Props {}
 
@@ -17,6 +18,7 @@ const Index = (props: Props) => {
 
   return (
     <NavigationList className="absolute pt-4 w-48">
+      <SideBarChart />
       <ul>
         <li onClick={() => selectMenu("calculator")}>
           <NavigationItem text="배당금 계산기" target="/calculator" Icon={CalculatorIcon} />

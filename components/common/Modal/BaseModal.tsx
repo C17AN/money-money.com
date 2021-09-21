@@ -27,6 +27,7 @@ const ModalBody = styled.div`
   width: 40vw;
   height: 80vh;
   margin: auto auto;
+  padding: 1.5rem;
   background-color: white;
   border-radius: 8px;
 `;

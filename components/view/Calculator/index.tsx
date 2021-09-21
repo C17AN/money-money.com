@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import BaseLayout from "layout/BaseLayout";
-import HoldingStockChart from "components/HoldingStockChart";
+import HoldingStockChart from "components/HoldingStockChart/HoldingStockChart";
 import Calculator from "components/Calculator";
 import { PlusCircleIcon } from "@heroicons/react/outline";
 import styled from "styled-components";
-import StockManageModal from "components/common/Modal/StockManageModal";
+import StockManageModal from "components/common/Modal/StockManageModal/StockManageModal";
 import TransparentButton from "components/common/Button/TransparentButton";
 
 interface Props {}
@@ -41,7 +41,6 @@ const Index = (props: Props) => {
 };
 
 const CalculatorContentWrapper = styled.div`
-  flex: 1;
   overflow: hidden;
   width: 40vw;
   max-width: 520px;
