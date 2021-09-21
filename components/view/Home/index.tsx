@@ -1,7 +1,7 @@
 import BaseLayout from "layout/BaseLayout";
 // import BaseTickerItem from "components/common/BaseTickerItem";
 // import Chart from "components/Chart";
-import BaseButton from "components/common/BaseButton";
+import BaseButton from "components/common/Button/BaseButton";
 import HeroImage from "assets/icons/chart.svg";
 import Image from "next/image";
 
